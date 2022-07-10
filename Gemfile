@@ -35,10 +35,21 @@ gem "redis", "~> 4.0"
 
 gem "awesome_print"
 
+# Devise for authentication
 gem "devise"
-# gem "carrierwave"
-# gem "avo"
+
+# Avo, admin dashboard
+gem "avo"
+
+# Search for Avo
+gem 'ransack'
+
+# Simple forms with simple form
 # gem "simple_form"
+
+# Easy image and file upload
+
+# gem "carrierwave"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
