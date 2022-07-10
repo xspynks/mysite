@@ -4,7 +4,7 @@ class PostResource < Avo::BaseResource
   self.search_query = ->(params:) do
     scope.ransack(id_eq: params[:q], m: "or").result(distinct: false)
   end
-  self.search_query_help = "- search by id"
+  self.search_query_help = "- busque pela id"
 
 
   field :id, as: :id
